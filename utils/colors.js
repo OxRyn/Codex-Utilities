@@ -1,0 +1,15 @@
+module.exports = {
+  Default: "#54EFFF",
+  Ban: "#FF6240",
+  Warn: "#FFA500",
+  Kick: "#FF884D",
+  Mute: "#9163FF",
+  TempMute: "#9163FF",
+  Unmute: "#49FF96",
+  Unban: "#49FF96",
+  Information: "#4BB7FF",
+  Success: "#49FF96",
+  Error: "#FF3E2A",
+  Alert: "#FFF933",
+  Timeout: "#9163FF",
+};

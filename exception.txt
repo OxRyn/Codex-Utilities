@@ -1,0 +1,1019 @@
+Mon, 16 Oct 2023 13:50:23 GMT: Error: ENOTDIR: not a directory, scandir './prefixCommands/ping.js'
+    at Object.readdirSync (node:fs:1527:3)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:79:6
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:77:37)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Mon, 16 Oct 2023 13:52:00 GMT: Error: ENOTDIR: not a directory, scandir './prefixCommands/ping.js'
+    at Object.readdirSync (node:fs:1527:3)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:79:6
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:77:37)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Mon, 16 Oct 2023 13:56:47 GMT: TypeError: Cannot read properties of undefined (reading 'get')
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:20:51)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:127:46)
+    at Client.emit (node:events:526:35)
+    at InteractionCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\InteractionCreate.js:97:12)
+    at module.exports [as INTERACTION_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Mon, 16 Oct 2023 15:07:02 GMT: E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\utilities\help.js:114
+    const message = await message.reply({
+          ^
+
+SyntaxError: Identifier 'message' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:83:21
+    at Array.forEach (<anonymous>)
+Mon, 16 Oct 2023 15:30:31 GMT: Error: Cannot find module '../../config.json'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\utilities\AboutBot.js
+- E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\utilities\AboutBot.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Mon, 16 Oct 2023 15:31:19 GMT: Error: Cannot find module '../../config.json'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\utilities\AboutBot.js
+- E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\utilities\AboutBot.js:3:16)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Tue, 17 Oct 2023 03:58:21 GMT: E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\utilities\help.js:101
+    const message = await interaction.reply({
+          ^
+
+SyntaxError: Identifier 'message' has already been declared
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:87:21
+    at Array.forEach (<anonymous>)
+Tue, 17 Oct 2023 06:08:29 GMT: TypeError: Cannot read properties of undefined (reading 'id')
+    at InteractionCollector.filter (E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\utilities\help.js:121:40)
+    at InteractionCollector.handleCollect (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\structures\interfaces\Collector.js:124:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Tue, 17 Oct 2023 06:10:53 GMT: TypeError: Cannot read properties of undefined (reading 'user')
+    at InteractionCollector.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\utilities\help.js:131:38)
+    at InteractionCollector.emit (node:events:526:35)
+    at InteractionCollector.handleCollect (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\structures\interfaces\Collector.js:133:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Tue, 17 Oct 2023 13:26:15 GMT: Error: Expected the value to be an object, but received string instead
+    at _ObjectValidator.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@sapphire\shapeshift\dist\index.js:1229:25)
+    at _ObjectValidator.parse (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@sapphire\shapeshift\dist\index.js:216:88)
+    at EmbedBuilder.setFooter (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\builders\dist\index.js:333:26)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:22:8)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+Tue, 17 Oct 2023 14:21:48 GMT: TypeError: Canvacord.Welcomer is not a constructor
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:19:26)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at InteractionCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\InteractionCreate.js:97:12)
+    at module.exports [as INTERACTION_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+Tue, 17 Oct 2023 14:23:49 GMT: TypeError: Class constructor AttachmentBuilder cannot be invoked without 'new'
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:33:22)
+Tue, 17 Oct 2023 14:32:10 GMT: TypeError: joinCard.toBuffer is not a function
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:34:16)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at InteractionCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\InteractionCreate.js:97:12)
+    at module.exports [as INTERACTION_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+Tue, 17 Oct 2023 14:32:55 GMT: TypeError: joinCard.build is not a function
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:33:55)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at InteractionCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\InteractionCreate.js:97:12)
+    at module.exports [as INTERACTION_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+Tue, 17 Oct 2023 14:36:12 GMT: TypeError: joinCard.build is not a function
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:34:22)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at InteractionCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\InteractionCreate.js:97:12)
+    at module.exports [as INTERACTION_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+Tue, 17 Oct 2023 14:49:11 GMT: Error: Received one or more errors
+    at _UnionValidator.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@sapphire\shapeshift\dist\index.js:1125:23)
+    at _UnionValidator.parse (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@sapphire\shapeshift\dist\index.js:216:88)
+    at EmbedBuilder.setImage (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\builders\dist\index.js:343:23)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:44:8)
+Tue, 17 Oct 2023 14:53:19 GMT: ReferenceError: image is not defined
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:50:37)
+Fri, 20 Oct 2023 13:58:30 GMT: Error: Cannot find module './../../models/guild'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js
+- E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:2:17)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Fri, 20 Oct 2023 14:01:48 GMT: Error: ENOENT, No such file or directory 'E:\Visual Stusio Code\Discord Bots\axes-utilities\events\addons\background.png'
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at Image.set (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:65:9)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\index.js:34:15
+    at new Promise (<anonymous>)
+    at Object.loadImage (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\index.js:23:10)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:18:37)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+Fri, 20 Oct 2023 14:01:49 GMT: Error: ENOENT, No such file or directory 'E:\Visual Stusio Code\Discord Bots\axes-utilities\events\addons\background.png'
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at Image.set (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:65:9)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\index.js:34:15
+    at new Promise (<anonymous>)
+    at Object.loadImage (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\index.js:23:10)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:18:37)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+Fri, 20 Oct 2023 14:02:26 GMT: Error: ENOENT, No such file or directory 'E:\Visual Stusio Code\Discord Bots\axes-utilities\events\addons\background.png'
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at Image.set (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:65:9)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\index.js:34:15
+    at new Promise (<anonymous>)
+    at Object.loadImage (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\index.js:23:10)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:18:37)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+Fri, 20 Oct 2023 14:04:50 GMT: Error: ENOENT, No such file or directory 'E:\Visual Stusio Code\Discord Bots\addons\background.png'
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at Image.set (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:65:9)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\index.js:34:15
+    at new Promise (<anonymous>)
+    at Object.loadImage (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\index.js:23:10)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:18:37)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+Fri, 20 Oct 2023 14:04:51 GMT: Error: ENOENT, No such file or directory 'E:\Visual Stusio Code\Discord Bots\addons\background.png'
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at Image.set (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:65:9)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\index.js:34:15
+    at new Promise (<anonymous>)
+    at Object.loadImage (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\index.js:23:10)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:18:37)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+Fri, 20 Oct 2023 14:05:16 GMT: Error: Unsupported image type
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:62:11
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-get\index.js:97:7
+    at IncomingMessage.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-concat\index.js:8:13)
+    at Object.onceWrapper (node:events:628:28)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Fri, 20 Oct 2023 14:06:21 GMT: TypeError: Invalid arguments
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:24:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri, 20 Oct 2023 14:09:51 GMT: Error: Unsupported image type
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:62:11
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-get\index.js:97:7
+    at IncomingMessage.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-concat\index.js:8:13)
+    at Object.onceWrapper (node:events:628:28)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Fri, 20 Oct 2023 14:10:55 GMT: Error: Unsupported image type
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:62:11
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-get\index.js:97:7
+    at IncomingMessage.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-concat\index.js:8:13)
+    at Object.onceWrapper (node:events:628:28)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Fri, 20 Oct 2023 14:15:01 GMT: Error: Unsupported image type
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:62:11
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-get\index.js:97:7
+    at IncomingMessage.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-concat\index.js:8:13)
+    at Object.onceWrapper (node:events:628:28)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Fri, 20 Oct 2023 14:15:01 GMT: Error: Unsupported image type
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:62:11
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-get\index.js:97:7
+    at IncomingMessage.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-concat\index.js:8:13)
+    at Object.onceWrapper (node:events:628:28)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Fri, 20 Oct 2023 14:19:50 GMT: Error: Unsupported image type
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:62:11
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-get\index.js:97:7
+    at IncomingMessage.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-concat\index.js:8:13)
+    at Object.onceWrapper (node:events:628:28)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Fri, 20 Oct 2023 14:20:59 GMT: Error: Unsupported image type
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:62:11
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-get\index.js:97:7
+    at IncomingMessage.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-concat\index.js:8:13)
+    at Object.onceWrapper (node:events:628:28)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Fri, 20 Oct 2023 14:26:51 GMT: TypeError: MessageAttachment is not a constructor
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:35:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri, 20 Oct 2023 14:27:56 GMT: ReferenceError: MessageAttachment is not defined
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:35:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Fri, 20 Oct 2023 14:33:21 GMT: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\node-fetch\src\index.js from E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js not supported.
+Instead change the require of index.js in E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:4:15)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:134:17)
+Fri, 20 Oct 2023 14:36:42 GMT: Error [ERR_REQUIRE_ESM]: require() of ES Module E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\node-fetch\src\index.js from E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js not supported.
+Instead change the require of index.js in E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js to a dynamic import() which is available in all CommonJS modules.
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:4:15)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:134:17)
+Fri, 20 Oct 2023 14:45:07 GMT: TypeError: Canvas.Welcome is not a constructor
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:15:19)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at InteractionCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\InteractionCreate.js:97:12)
+    at module.exports [as INTERACTION_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+Fri, 20 Oct 2023 15:31:14 GMT: ReferenceError: getChannelId is not defined
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\memberJoin.js:15:23)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\slashCommands\developer\Emit.js:27:12)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\interactionCreate.js:54:23)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at InteractionCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\InteractionCreate.js:97:12)
+    at module.exports [as INTERACTION_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+Fri, 20 Oct 2023 15:32:35 GMT: Error: Unsupported image type
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:62:11
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-get\index.js:97:7
+    at IncomingMessage.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-concat\index.js:8:13)
+    at Object.onceWrapper (node:events:628:28)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Fri, 20 Oct 2023 15:33:15 GMT: Error: Unsupported image type
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:62:11
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-get\index.js:97:7
+    at IncomingMessage.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-concat\index.js:8:13)
+    at Object.onceWrapper (node:events:628:28)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Fri, 20 Oct 2023 15:34:29 GMT: Error: Unsupported image type
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:62:11
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-get\index.js:97:7
+    at IncomingMessage.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-concat\index.js:8:13)
+    at Object.onceWrapper (node:events:628:28)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Fri, 20 Oct 2023 15:37:33 GMT: Error: Unsupported image type
+    at setSource (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:94:13)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\canvas\lib\image.js:62:11
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-get\index.js:97:7
+    at IncomingMessage.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\simple-concat\index.js:8:13)
+    at Object.onceWrapper (node:events:628:28)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+Sat, 21 Oct 2023 05:34:50 GMT: ReferenceError: message is not defined
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\afkStatus.js:11:5)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Sat, 21 Oct 2023 05:34:59 GMT: ReferenceError: message is not defined
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\afkStatus.js:11:5)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Sun, 22 Oct 2023 03:50:08 GMT: MongooseError: Operation `afks.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Sun, 22 Oct 2023 05:25:00 GMT: TypeError: Cannot read properties of null (reading 'id')
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\RankingCreate.js:18:35)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Sun, 22 Oct 2023 05:27:04 GMT: TypeError: Cannot read properties of null (reading 'id')
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\RankingCreate.js:18:35)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Sun, 22 Oct 2023 05:28:22 GMT: TypeError: Cannot read properties of undefined (reading 'id')
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\RankingCreate.js:18:42)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Sun, 22 Oct 2023 05:28:23 GMT: TypeError: Cannot read properties of undefined (reading 'id')
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\RankingCreate.js:18:42)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Sun, 22 Oct 2023 05:28:24 GMT: TypeError: Cannot read properties of undefined (reading 'id')
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\RankingCreate.js:18:42)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Sun, 22 Oct 2023 05:28:24 GMT: TypeError: Cannot read properties of undefined (reading 'id')
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\RankingCreate.js:18:42)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Sun, 22 Oct 2023 05:28:25 GMT: TypeError: Cannot read properties of undefined (reading 'id')
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\RankingCreate.js:18:42)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Sun, 22 Oct 2023 05:28:25 GMT: TypeError: Cannot read properties of undefined (reading 'id')
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\RankingCreate.js:18:42)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Sun, 22 Oct 2023 05:32:50 GMT: TypeError: Cannot read properties of null (reading 'id')
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\axes-utilities\events\RankingCreate.js:18:35)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:138:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\axes-utilities\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Mon, 23 Oct 2023 16:07:58 GMT: E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\music\play.js:437
+    },
+     ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:87:21
+    at Array.forEach (<anonymous>)
+Mon, 23 Oct 2023 16:11:12 GMT: E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\music\play.js:438
+};
+  
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:87:21
+    at Array.forEach (<anonymous>)
+Mon, 23 Oct 2023 16:16:00 GMT: E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\music\play.js:438
+};
+  
+
+SyntaxError: Unexpected end of input
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:87:21
+    at Array.forEach (<anonymous>)
+Mon, 23 Oct 2023 16:19:52 GMT: E:\Visual Stusio Code\Discord Bots\axes-utilities\prefixCommands\music\play.js:438
+    },
+     ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at E:\Visual Stusio Code\Discord Bots\axes-utilities\index.js:87:21
+    at Array.forEach (<anonymous>)
+Tue, 24 Oct 2023 04:29:36 GMT: MongooseError: Operation `afks.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Tue, 24 Oct 2023 07:19:03 GMT: Error [InteractionNotReplied]: The reply to this interaction has not been sent or deferred.
+    at StringSelectMenuInteraction.followUp (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:184:64)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\music\play.js:442:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Wed, 25 Oct 2023 10:36:53 GMT: Error: The specified module could not be found.
+\\?\D:\Vscode\amna-v5\node_modules\@napi-rs\canvas-win32-x64-msvc\skia.win32-x64-msvc.node
+    at Module._extensions..node (node:internal/modules/cjs/loader:1338:18)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\Vscode\amna-v5\node_modules\@napi-rs\canvas\js-binding.js:63:29)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+Wed, 25 Oct 2023 10:41:56 GMT: Error: The specified module could not be found.
+\\?\D:\Vscode\amna-v5\node_modules\@napi-rs\canvas-win32-x64-msvc\skia.win32-x64-msvc.node
+    at Module._extensions..node (node:internal/modules/cjs/loader:1338:18)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\Vscode\amna-v5\node_modules\@napi-rs\canvas\js-binding.js:63:29)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+Wed, 25 Oct 2023 10:43:00 GMT: Error: The specified module could not be found.
+\\?\D:\Vscode\amna-v5\node_modules\@napi-rs\canvas-win32-x64-msvc\skia.win32-x64-msvc.node
+    at Module._extensions..node (node:internal/modules/cjs/loader:1338:18)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\Vscode\amna-v5\node_modules\@napi-rs\canvas\js-binding.js:63:29)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+Wed, 25 Oct 2023 10:51:57 GMT: Error: The specified module could not be found.
+\\?\D:\Vscode\amna-v5\node_modules\@napi-rs\canvas-win32-x64-msvc\skia.win32-x64-msvc.node
+    at Module._extensions..node (node:internal/modules/cjs/loader:1340:18)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\Vscode\amna-v5\node_modules\@napi-rs\canvas\js-binding.js:63:29)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+Wed, 25 Oct 2023 11:37:41 GMT: Error: The specified module could not be found.
+\\?\D:\Vscode\amna-v5\node_modules\@napi-rs\canvas-win32-x64-msvc\skia.win32-x64-msvc.node
+    at Module._extensions..node (node:internal/modules/cjs/loader:1340:18)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\Vscode\amna-v5\node_modules\@napi-rs\canvas\js-binding.js:63:29)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+Wed, 25 Oct 2023 11:56:16 GMT: Error: The specified module could not be found.
+\\?\D:\Vscode\amna-v5\node_modules\@napi-rs\canvas-win32-x64-msvc\skia.win32-x64-msvc.node
+    at Module._extensions..node (node:internal/modules/cjs/loader:1340:18)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\Vscode\amna-v5\node_modules\@napi-rs\canvas\js-binding.js:63:29)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+Wed, 25 Oct 2023 12:02:54 GMT: Error: The specified module could not be found.
+\\?\D:\Vscode\amna-v5\node_modules\@napi-rs\canvas-win32-x64-msvc\skia.win32-x64-msvc.node
+    at Module._extensions..node (node:internal/modules/cjs/loader:1338:18)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\Vscode\amna-v5\node_modules\@napi-rs\canvas\js-binding.js:63:29)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+Wed, 25 Oct 2023 12:09:38 GMT: Error: The specified module could not be found.
+\\?\D:\Vscode\amna-v5\node_modules\@napi-rs\canvas-win32-x64-msvc\skia.win32-x64-msvc.node
+    at Module._extensions..node (node:internal/modules/cjs/loader:1338:18)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\Vscode\amna-v5\node_modules\@napi-rs\canvas\js-binding.js:63:29)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+Wed, 25 Oct 2023 12:09:59 GMT: Error: The specified module could not be found.
+\\?\D:\Vscode\amna-v5\node_modules\@napi-rs\canvas-win32-x64-msvc\skia.win32-x64-msvc.node
+    at Module._extensions..node (node:internal/modules/cjs/loader:1338:18)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+    at Module.require (node:internal/modules/cjs/loader:1141:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\Vscode\amna-v5\node_modules\@napi-rs\canvas\js-binding.js:63:29)
+    at Module._compile (node:internal/modules/cjs/loader:1254:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1308:10)
+    at Module.load (node:internal/modules/cjs/loader:1117:32)
+    at Module._load (node:internal/modules/cjs/loader:958:12)
+Wed, 25 Oct 2023 12:14:42 GMT: MongooseError: Operation `afks.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\Vscode\amna-v5\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Wed, 25 Oct 2023 12:14:58 GMT: MongooseError: Operation `afks.findOne()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (D:\Vscode\amna-v5\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Sat, 18 Nov 2023 10:18:14 GMT: Error: Expected a string primitive
+    at _StringValidator.handle (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@sapphire\shapeshift\dist\index.js:1742:70)
+    at _StringValidator.parse (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@sapphire\shapeshift\dist\index.js:216:88)
+    at validateDescription (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:1434:25)
+    at validateRequiredParameters (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:1448:3)
+    at SlashCommandAttachmentOption.runRequiredValidations (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:1642:5)
+    at SlashCommandAttachmentOption.toJSON (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:1662:10)
+    at E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:2355:52
+    at Array.map (<anonymous>)
+    at MixedClass.toJSON (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:2355:29)
+    at E:\Visual Stusio Code\Discord Bots\Amna (V5)\index.js:71:37
+Sat, 18 Nov 2023 10:20:29 GMT: Error: Expected a string primitive
+    at _StringValidator.handle (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@sapphire\shapeshift\dist\index.js:1742:70)
+    at _StringValidator.parse (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@sapphire\shapeshift\dist\index.js:216:88)
+    at validateDescription (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:1434:25)
+    at validateRequiredParameters (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:1448:3)
+    at SlashCommandAttachmentOption.runRequiredValidations (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:1642:5)
+    at SlashCommandAttachmentOption.toJSON (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:1662:10)
+    at E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:2355:52
+    at Array.map (<anonymous>)
+    at MixedClass.toJSON (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:2355:29)
+    at E:\Visual Stusio Code\Discord Bots\Amna (V5)\index.js:71:37
+Sat, 18 Nov 2023 11:02:26 GMT: ReferenceError: message is not defined
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\Amna (V5)\events\testFile.js:15:5)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\index.js:139:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Sat, 18 Nov 2023 11:02:58 GMT: TypeError: Cannot read properties of undefined (reading 'startsWith')
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\Amna (V5)\events\testFile.js:15:26)
+    at Client.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\index.js:139:46)
+    at Client.emit (node:events:526:35)
+    at MessageCreateAction.handle (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\discord.js\src\client\actions\MessageCreate.js:28:14)
+    at module.exports [as MESSAGE_CREATE] (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\discord.js\src\client\websocket\WebSocketManager.js:355:31)
+    at WebSocketManager.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\discord.js\src\client\websocket\WebSocketManager.js:239:12)
+    at WebSocketManager.emit (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+    at WebSocketShard.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\ws\dist\index.js:1173:51)
+    at WebSocketShard.emit (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@vladfrangu\async_event_emitter\dist\index.js:282:31)
+Mon, 20 Nov 2023 10:08:29 GMT: Error: Cannot find module '../../colors'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\admin\listModRoles.js
+- E:\Visual Stusio Code\Discord Bots\Amna (V5)\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\admin\listModRoles.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Mon, 20 Nov 2023 10:20:14 GMT: Error: The module '\\?\E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\canvas\build\Release\canvas.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 108. This version of Node.js requires
+NODE_MODULE_VERSION 115. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Module._extensions..node (node:internal/modules/cjs/loader:1319:18)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+    at Module.require (node:internal/modules/cjs/loader:1115:19)
+    at require (node:internal/modules/helpers:119:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\canvas\lib\bindings.js:3:18)
+    at Module._compile (node:internal/modules/cjs/loader:1233:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1287:10)
+    at Module.load (node:internal/modules/cjs/loader:1091:32)
+    at Module._load (node:internal/modules/cjs/loader:938:12)
+Mon, 20 Nov 2023 12:33:52 GMT: Error: Cannot find module '../../colors'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\admin\listModRoles.js
+- E:\Visual Stusio Code\Discord Bots\Amna (V5)\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\admin\listModRoles.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Mon, 20 Nov 2023 12:45:18 GMT: Error: Cannot find module '../../colors'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\admin\listModRoles.js
+- E:\Visual Stusio Code\Discord Bots\Amna (V5)\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\admin\listModRoles.js:8:16)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Mon, 20 Nov 2023 12:49:28 GMT: E:\Visual Stusio Code\Discord Bots\Amna (V5)\prefixCommands\moderation\Timeout.js:7
+  name: "timeout",../../utils/colors.js
+                  ^
+
+SyntaxError: Unexpected token '.'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at E:\Visual Stusio Code\Discord Bots\Amna (V5)\index.js:88:21
+    at Array.forEach (<anonymous>)
+Mon, 20 Nov 2023 12:50:29 GMT: Error: Cannot find module '../colors'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Amna (V5)\events\interactionCreate.js
+- E:\Visual Stusio Code\Discord Bots\Amna (V5)\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\events\interactionCreate.js:12:16)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Mon, 20 Nov 2023 12:52:26 GMT: Error: Cannot find module '../chalk'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Amna (V5)\functions\configLoader.js
+- E:\Visual Stusio Code\Discord Bots\Amna (V5)\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\functions\configLoader.js:1:23)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Mon, 20 Nov 2023 14:38:41 GMT: TypeError: option.setName(...).setDescription(...).setRequired(...).addChoice is not a function
+    at E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\developer\Emit.js:19:10
+    at MixedClass._sharedAddOptionMethod (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:2129:50)
+    at MixedClass.addStringOption (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:2101:17)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\developer\Emit.js:14:6)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+Mon, 20 Nov 2023 14:43:00 GMT: Error: Received one or more errors
+    at _ArrayValidator.handle (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@sapphire\shapeshift\dist\index.js:480:70)
+    at _ArrayValidator.parse (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@sapphire\shapeshift\dist\index.js:216:88)
+    at MixedClass.addChoices (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:1804:22)
+    at E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\developer\Emit.js:19:10
+    at MixedClass._sharedAddOptionMethod (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:2129:50)
+    at MixedClass.addStringOption (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:2101:17)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\developer\Emit.js:14:6)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+Mon, 20 Nov 2023 14:44:51 GMT: Error: Invalid number value
+    at Object.run (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@sapphire\shapeshift\dist\index.js:789:72)
+    at E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@sapphire\shapeshift\dist\index.js:216:66
+    at Array.reduce (<anonymous>)
+    at _NumberValidator.parse (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@sapphire\shapeshift\dist\index.js:216:29)
+    at validateChoicesLength (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:1463:26)
+    at MixedClass.addChoices (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:1808:5)
+    at E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\developer\Emit.js:19:10
+    at MixedClass._sharedAddOptionMethod (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:2129:50)
+    at MixedClass.addStringOption (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\builders\dist\index.js:2101:17)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Amna (V5)\slashCommands\developer\Emit.js:14:6)
+Tue, 21 Nov 2023 16:40:57 GMT: Error: Invalid number value
+    at Object.run (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@sapphire\shapeshift\dist\index.js:789:72)
+    at E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@sapphire\shapeshift\dist\index.js:216:66
+    at Array.reduce (<anonymous>)
+    at _NumberValidator.parse (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@sapphire\shapeshift\dist\index.js:216:29)
+    at validateChoicesLength (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@discordjs\builders\dist\index.js:1613:26)
+    at MixedClass.addChoices (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@discordjs\builders\dist\index.js:1959:5)
+    at E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\developer\Emit.js:19:10
+    at MixedClass._sharedAddOptionMethod (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@discordjs\builders\dist\index.js:2280:50)
+    at MixedClass.addStringOption (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@discordjs\builders\dist\index.js:2252:17)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\developer\Emit.js:14:6)
+Tue, 21 Nov 2023 16:41:39 GMT: Error: Invalid number value
+    at Object.run (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@sapphire\shapeshift\dist\index.js:789:72)
+    at E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@sapphire\shapeshift\dist\index.js:216:66
+    at Array.reduce (<anonymous>)
+    at _NumberValidator.parse (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@sapphire\shapeshift\dist\index.js:216:29)
+    at validateChoicesLength (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@discordjs\builders\dist\index.js:1613:26)
+    at MixedClass.addChoices (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@discordjs\builders\dist\index.js:1959:5)
+    at E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\developer\Emit.js:19:10
+    at MixedClass._sharedAddOptionMethod (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@discordjs\builders\dist\index.js:2280:50)
+    at MixedClass.addStringOption (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\@discordjs\builders\dist\index.js:2252:17)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\developer\Emit.js:14:6)
+Tue, 21 Nov 2023 16:41:52 GMT: Error: Cannot find module '../../utils/images'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\developer\emojisId.js
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\developer\emojisId.js:8:15)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Tue, 21 Nov 2023 16:42:30 GMT: Error: Cannot find module '../../schemas/RankingSchema'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\fun\rankLeaderboard.js
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\fun\rankLeaderboard.js:7:14)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Tue, 21 Nov 2023 16:43:40 GMT: Error: Cannot find module '../../functions/formatResults'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\public\Suggest.js
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\public\Suggest.js:15:23)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Tue, 21 Nov 2023 16:44:10 GMT: Error: Cannot find module '../../../functions/formatResults'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\public\Suggest.js
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\slashCommands\public\Suggest.js:15:23)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Tue, 21 Nov 2023 16:44:55 GMT: Error: Cannot find module '../../../../schemas/infractions.js'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\moderation\Ban.js
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\moderation\Ban.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Tue, 21 Nov 2023 16:45:34 GMT: Error: Cannot find module '../../config.json'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\moderation\slowmode.js
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\moderation\slowmode.js:2:16)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Tue, 21 Nov 2023 16:46:34 GMT: Error: Cannot find module '../../../../schemas/infractions.js.js'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\moderation\SoftBan.js
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\moderation\SoftBan.js:2:18)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Tue, 21 Nov 2023 16:47:13 GMT: Error: Cannot find module '../../utils/images'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\moderation\test.js
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\moderation\test.js:2:15)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Tue, 21 Nov 2023 16:47:30 GMT: Error: Cannot find module '../../functions/formatResults'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\public\suggest.js
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\public\suggest.js:13:23)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+Tue, 21 Nov 2023 16:47:47 GMT: Error: Cannot find module '../../functions/formatResults'
+Require stack:
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\public\suggest.js
+- E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+    at Module._load (node:internal/modules/cjs/loader:922:27)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:121:18)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\commands\prefixCommands\public\suggest.js:13:23)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
