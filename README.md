@@ -1,6 +1,6 @@
 # 🤖 Codex Utilities Bot
 
-Welcome to Codex Utilities Bot! This Discord bot is designed to enhance your server experience by providing moderation, fun, and utility features.
+Welcome to Codex Utilities Bot! This Discord bot is designed to enhance the codex studios discord server experience by providing moderation, fun, and utility features.
 
 ## 🌟 Features
 
