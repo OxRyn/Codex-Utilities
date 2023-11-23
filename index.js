@@ -15,7 +15,7 @@ const BotsModel = require("./schemas/bots.js");
 const botID = "8802fcee-39fa-4da2-b1c7-9b35dd75fcd2";
 
 mongoose.connect(
-  process.env.UPDATE_DATABSE,
+  `mongodb://127.0.0.1:27017/Axe-Utilities?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.0.2`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
