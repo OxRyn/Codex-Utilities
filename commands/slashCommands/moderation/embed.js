@@ -130,6 +130,6 @@ module.exports = {
       })
       .setTimestamp();
 
-    await modalInteraction.reply({ embeds: [embed] });
+    await interaction.channel.send({ embeds: [embed] });
   },
 };
