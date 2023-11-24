@@ -1017,3 +1017,25 @@ Require stack:
     at Module.load (node:internal/modules/cjs/loader:1119:32)
     at Module._load (node:internal/modules/cjs/loader:960:12)
     at Module.require (node:internal/modules/cjs/loader:1143:19)
+Wed, 22 Nov 2023 09:58:19 GMT: Error [InteractionAlreadyReplied]: The reply to this interaction has already been sent or deferred.
+    at ChatInputCommandInteraction.reply (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\discord.js\src\structures\interfaces\InteractionResponses.js:102:46)
+    at Object.execute (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\events\interactionCreate.js:58:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Thu, 23 Nov 2023 15:25:04 GMT: MongooseError: Model.findOne() no longer accepts a callback
+    at Function.findOne (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\mongoose\lib\model.js:2194:11)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js:67:11)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47
+Thu, 23 Nov 2023 15:26:36 GMT: MongooseError: Model.findOne() no longer accepts a callback
+    at Function.findOne (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\mongoose\lib\model.js:2194:11)
+    at Object.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\index.js:67:11)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47

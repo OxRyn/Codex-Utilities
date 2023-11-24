@@ -1270,3 +1270,37 @@ content[BASE_TYPE_MAX_LENGTH]: Must be 2000 or fewer in length.
     at async SequentialHandler.queueRequest (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\rest\dist\index.js:913:14)
     at async _REST.request (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\@discordjs\rest\dist\index.js:1218:22)
     at async TextChannel.send (E:\Visual Stusio Code\Discord Bots\Amna (V5)\node_modules\discord.js\src\structures\interfaces\TextBasedChannel.js:162:15)
+Wed, 22 Nov 2023 09:47:38 GMT: Error: ENOENT: no such file or directory, stat 'E:\Visual Stusio Code\Discord Bots\Codex-Utilities\assets\images\amnaFooter1.png'
+Wed, 22 Nov 2023 09:47:38 GMT: Error: ENOENT: no such file or directory, stat 'E:\Visual Stusio Code\Discord Bots\Codex-Utilities\assets\images\amnaFooter1.png'
+Wed, 22 Nov 2023 09:47:38 GMT: Error: ENOENT: no such file or directory, stat 'E:\Visual Stusio Code\Discord Bots\Codex-Utilities\assets\images\amnaFooter1.png'
+Wed, 22 Nov 2023 09:47:39 GMT: Error: ENOENT: no such file or directory, stat 'E:\Visual Stusio Code\Discord Bots\Codex-Utilities\assets\images\amnaFooter1.png'
+Thu, 23 Nov 2023 14:39:19 GMT: MongooseServerSelectionError: Server selection timed out after 2000 ms
+    at _handleConnectionErrors (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\mongoose\lib\connection.js:809:11)
+    at NativeConnection.openUri (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\mongoose\lib\connection.js:784:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at runNextTicks (node:internal/process/task_queues:64:3)
+    at process.processTimers (node:internal/timers:509:9)
+Thu, 23 Nov 2023 14:39:29 GMT: MongooseError: Operation `memberlogs.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Thu, 23 Nov 2023 14:54:17 GMT: MongooseError: Operation `memberlogs.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Thu, 23 Nov 2023 14:58:12 GMT: MongoServerSelectionError: Server selection timed out after 2000 ms
+    at Timeout._onTimeout (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:278:38)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Thu, 23 Nov 2023 15:03:20 GMT: MongooseError: Operation `memberlogs.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Thu, 23 Nov 2023 15:03:47 GMT: MongooseError: Operation `memberlogs.find()` buffering timed out after 10000ms
+    at Timeout.<anonymous> (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:186:23)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)
+Thu, 23 Nov 2023 15:32:07 GMT: MongoServerSelectionError: Server selection timed out after 2000 ms
+    at Timeout._onTimeout (E:\Visual Stusio Code\Discord Bots\Codex-Utilities\node_modules\mongoose\node_modules\mongodb\lib\sdam\topology.js:278:38)
+    at listOnTimeout (node:internal/timers:569:17)
+    at process.processTimers (node:internal/timers:512:7)

@@ -11,7 +11,6 @@ module.exports = {
   data: new SlashCommandBuilder()
     .setName("emojilist")
     .setDescription("List all emojis of the guild")
-    .setDefaultMemberPermissions(PermissionFlagsBits.Administrator)
     .setDMPermission(false),
 
   /**
@@ -19,6 +18,13 @@ module.exports = {
    * @param {Client} client
    */
   execute(interaction, client) {
+    if (interaction.user.id !== "978191892569288724") {
+      interaction.reply({
+        content: "This command is only available to devs.",
+        ephemeral: true,
+      });
+      return;
+    }
     // Get the guild emojis
     const guildEmojis = interaction.guild.emojis.cache;
 
@@ -40,10 +46,9 @@ module.exports = {
     chunks.forEach((chunk, index) => {
       const embed = new EmbedBuilder()
         .setTitle(`Emoji List - Page ${index + 1}`)
-        .setDescription(chunk.join("\n"))
-        .setImage("attachment://amnaFooter1.png");
+        .setDescription(chunk.join("\n"));
 
-      interaction.channel.send({ embeds: [embed], files: [Image.amnaFooter1] });
+      interaction.channel.send({ embeds: [embed] });
     });
   },
 };
