@@ -5,6 +5,7 @@ const {
   PermissionFlagsBits,
 } = require("discord.js");
 const colors = require("../../../utils/colors.js");
+const { Emoji } = require("../../../utils/emojis.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -50,20 +51,10 @@ module.exports = {
 
       // Create formatted permission strings with emojis
       const firstHalfFormatted = firstHalf
-        .map(
-          ([key, value]) =>
-            `${
-              value ? "<:On:1156568627911348354>" : "<:Off:1156568623213727794>"
-            } ${key}`
-        )
+        .map(([key, value]) => `${value ? Emoji.On : Emoji.Off} ${key}`)
         .join("\n");
       const secondHalfFormatted = secondHalf
-        .map(
-          ([key, value]) =>
-            `${
-              value ? "<:On:1156568627911348354>" : "<:Off:1156568623213727794>"
-            } ${key}`
-        )
+        .map(([key, value]) => `${value ? Emoji.On : Emoji.Off} ${key}`)
         .join("\n");
 
       // Count the number of allowed and denied permissions

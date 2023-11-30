@@ -1,5 +1,5 @@
 module.exports = {
-  Default: "#54EFFF",
+  Default: "#2B2D31",
   Ban: "#FF6240",
   Warn: "#FFA500",
   Kick: "#FF884D",

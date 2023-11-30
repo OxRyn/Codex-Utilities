@@ -5,6 +5,7 @@ const {
   EmbedBuilder,
 } = require("discord.js");
 const colors = require("../../../utils/colors.js");
+const Image = require("../../../utils/images.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -29,7 +30,8 @@ module.exports = {
     const staticEmotesEmbeds = staticEmojisChunks.map((emojiChunk, index) => {
       const staticEmotesEmbed = new EmbedBuilder()
         .setColor(colors.Default)
-        .setDescription(emojiChunk.map((emoji) => emoji.toString()).join(" "));
+        .setDescription(emojiChunk.map((emoji) => emoji.toString()).join(" "))
+        .setImage("attachment://amnaFooter4.png");
 
       if (index === 0) {
         staticEmotesEmbed.setTitle(`Static Emotes of the Guild`);
@@ -93,6 +95,7 @@ module.exports = {
     // Send the initial response
     await interaction.reply({
       embeds: [...staticEmotesEmbeds, ...animatedEmotesEmbeds],
+      files: [Image.amnaFooter4],
     });
   },
 };

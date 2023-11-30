@@ -1,3 +1,49 @@
+OKY SO
+START WORKING ON SATURDAY
+
+GENDER ROLE
+FEMALE
+MALE
+OTHER
+
+AGE
++18
+-18
+
+ROLES
+TALKATIVE MAGPIE (CHAT REVIVER)
+OVER-ACTIVE ATTENDER (EVENT PING)
+RIZZLER (WHY NOT)
+MATHEMATICIAN (HELP PEOPLE WITHMATH)
+CRAZY ARTIST (CAN POST IN ⁠art-gallery )
+MUSIC MAKE ME LOOSE CONTROL (CAN SKIP SONG OR WHATEVER IDK DJ THING WE HAD IN THE PAST)
+
+COLOR ROLE
+BOT NEEDED BY I WILL FIND THE COLORS
+
+THOSE ROLE I WILL MAKE AN EMOJI 
+
+NEW CHANNEL 
+ENTRANCE (WELCOME AND BYE BYE CHANNEL)
+JADE , SPADE AND URI OFFICE
+ART SUBMISSION BUT ITS GONNA BE HIDDEN FROM OTHERS UNTIL WE HAVE ART COMPETITION
+MUSIC STUDIO
+
+NEW MOD ROLE 
+MODEL (NICK AND BORGOR) <- THEY'RE OUR MASCOT
+
+OUR SERVER THEME IS FANCY MODERN ARTISTIC (REMEMBER OUR SERVER IS ABOUT FASHION)
+
+LASTLY FIX ROLES <- I'LL BE DOING THAT 
+also I WILL MAKE THE EMOJI
+AS FOR COLOR ROLE WE NEED A BOT
+I WILL FIND THE COLOR
+AND THEN
+
+
+
+
+
 const { SlashCommandBuilder } = require("@discordjs/builders");
 const { ActionRowBuilder, ButtonBuilder, EmbedBuilder } = require("discord.js");
 const fs = require("fs");
@@ -51,16 +97,7 @@ module.exports = {
     }
 
     // Create buttons for categories
-    const categoryRow = new ActionRowBuilder().addComponents(
-      new ButtonBuilder()
-        .setCustomId("homeButton")
-        .setLabel("Home")
-        .setEmoji(Emoji.Home1)
-        .setStyle(2)
-    );
-
-    // Add "Home" button to the categoryRow
-    categoryRow.addComponents(
+    const row = new ActionRowBuilder().addComponents(
       categories.map((category, index) =>
         new ButtonBuilder()
           .setCustomId(`button${index + 1}`)
@@ -104,16 +141,6 @@ If you require assistance or are experiencing a persistent bug, please create a 
           name: `\`Utilities 🛠️\``,
           value: `${Emoji.SubInlineText2} Handy utility commands for various tasks and information.`,
           inline: true,
-        },
-        {
-          name: `‎`,
-          value: `‎`,
-          inline: true,
-        },
-        {
-          name: `‎ `,
-          value: `‎`,
-          inline: true,
         }
       )
       .setTimestamp()
@@ -121,13 +148,12 @@ If you require assistance or are experiencing a persistent bug, please create a 
 
     const message = await interaction.reply({
       embeds: [initialEmbed],
-      components: [categoryRow],
+      components: [row],
     });
 
-    // Set up collectors for category and fixed buttons
+    // Set up collectors for category buttons
     const buttonCollectors = [];
 
-    // Collector for category buttons
     categories.forEach((category, index) => {
       const filter = (i) =>
         i.customId === `button${index + 1}` &&
@@ -181,34 +207,6 @@ If you require assistance or are experiencing a persistent bug, please create a 
       });
 
       buttonCollectors.push(collector);
-    });
-
-    // Collector for "Home" button
-    const homeFilter = (i) =>
-      i.customId === "homeButton" && i.user.id === interaction.user.id;
-    const homeCollector = message.createMessageComponentCollector({
-      filter: homeFilter,
-    });
-
-    homeCollector.on("collect", async (i) => {
-      // Handle the "Home" button click
-      // Update the message with the initial embed
-      i.update({ embeds: [initialEmbed] });
-    });
-
-    buttonCollectors.push(homeCollector);
-
-    // Add a collector to disable all buttons when any collector ends
-    buttonCollectors.forEach((collector) => {
-      collector.on("end", () => {
-        // Disable all buttons in the categoryRow
-        categoryRow.components.forEach((button) => {
-          button.setDisabled(true);
-        });
-
-        // Update the message with the disabled buttons
-        message.edit({ components: [categoryRow] });
-      });
     });
   },
 };

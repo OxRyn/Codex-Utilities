@@ -1,6 +1,5 @@
-const { GuildMember, AttachmentBuilder } = require("discord.js");
-const Canvas = require("canvas");
-const path = require("path");
+const { GuildMember, EmbedBuilder, WebhookClient } = require("discord.js");
+const color = require("../utils/colors");
 
 module.exports = {
   name: "guildMemberAdd",
@@ -10,50 +9,30 @@ module.exports = {
    * @param {Client} client
    */
   async execute(member, client) {
-    const { guild } = member;
+    const webhookClient = new WebhookClient({
+      url: ` https://discord.com/api/webhooks/1179645099269963787/UpKt6PkGGQdzXl337DdBtC7CZr598koXAnzBYLxsC4KJouEfq-jHBCzrj2TITXOIL1j9`,
+    });
 
-    const channelId = "1163830236522238002";
-    if (!channelId) {
-      return;
-    }
+    const embed = new EmbedBuilder()
+      .setAuthor({
+        name: member.guild.name,
+        iconURL: member.guild.iconURL({ dynamic: true, size: 256 }),
+      })
+      .setTitle(`✧ 𝙒𝙀𝙇𝘾𝙊𝙈𝙀 ✧`)
+      .setColor(color.Default) // Use a color from your fashion theme
+      .setDescription(
+        `Welcome, ${member}! 🌟\n\nStep into ${member.guild.name} and make yourself at home. Let's have some fun with fashion! 💃🕺`
+      )
+      .addFields({
+        name: `👠 Explore these channels:`,
+        value: `<#1177810952536731669>\n<#1177811458692759652>\n<#1177812261159567443>`,
+      })
+      .setThumbnail(`${member.displayAvatarURL({ dynamic: true, size: 256 })}`)
+      .setImage(
+        `https://media.discordapp.net/attachments/1177814801997639762/1179391163539673088/womenswear_retail_store_design_and_shop_layout_interiordesign_architect_retaildesign_shopdisplay_shopfitting.jpg?ex=65799c9d&is=6567279d&hm=0ef194c9e3ddef515d049624eefe9a36959ea1614bd76afa18f4833d2d14b214&=&format=webp`
+      )
+      .setFooter({ text: `Have fun with fashion! 👗👔` });
 
-    const channel = guild.channels.cache.get(channelId);
-    if (!channel) {
-      return;
-    }
-
-    const canvas = Canvas.createCanvas(700, 250);
-    const ctx = canvas.getContext("2d");
-
-    const backgroundUrl =
-      "https://i.pinimg.com/originals/1e/3c/0d/1e3c0d10b4725a8c8d726ed4345a0170.png"; // Replace with your image URL
-
-    const background = await Canvas.loadImage(backgroundUrl);
-    let x = 0;
-    let y = 0;
-    ctx.drawImage(background, x, y);
-
-    const pfp = await Canvas.loadImage(
-      member.user.displayAvatarURL({
-        format: "png",
-      }),
-    );
-    x = canvas.width / 2 - pfp.width / 2;
-    y = 25;
-    ctx.drawImage(pfp, x, y);
-
-    ctx.fillStyle = "#ffffff";
-    ctx.font = "35px sans-serif";
-    let text = `Welcome ${member.user.tag}`;
-    x = canvas.width / 2 - ctx.measureText(text).width / 2;
-    ctx.fillText(text, x, 60 + pfp.height);
-
-    ctx.font = "30px sans-serif";
-    text = `Member #${guild.memberCount}`;
-    x = canvas.width / 2 - ctx.measureText(text).width / 2;
-    ctx.fillText(text, x, 100 + pfp.height);
-
-    const attachment = new AttachmentBuilder(canvas.toBuffer());
-    channel.send({ files: [attachment] });
+    webhookClient.send({ embeds: [embed] });
   },
 };

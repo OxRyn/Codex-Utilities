@@ -18,7 +18,7 @@ module.exports = {
    * @param {Client} client
    */
   execute(interaction, client) {
-    if (interaction.user.id !== "978191892569288724") {
+    if (interaction.user.id !== "1177808839484133437") {
       interaction.reply({
         content: "This command is only available to devs.",
         ephemeral: true,

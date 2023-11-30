@@ -14,7 +14,7 @@ module.exports = {
       option
         .setName("readme")
         .setDescription("The README.md file")
-        .setRequired(true),
+        .setRequired(true)
     )
     .setDMPermission(false),
 
@@ -23,7 +23,7 @@ module.exports = {
    * @param {Client} client
    */
   async execute(interaction, client) {
-    if (interaction.user.id !== "978191892569288724") {
+    if (interaction.user.id !== "1177808839484133437") {
       interaction.reply({
         content: "This command is only available to devs.",
         ephemeral: true,
@@ -40,7 +40,7 @@ module.exports = {
       if (err) {
         console.error(err);
         interaction.reply(
-          "An error occurred while reading the README.md file.",
+          "An error occurred while reading the README.md file."
         );
         return;
       }

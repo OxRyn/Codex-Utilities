@@ -41,7 +41,7 @@ module.exports = {
         {
           name: "Help in this project",
           value:
-            "Are you interested in improving this bot? Feel free to DM <@978191892569288724> if you have any suggestions or would like to contribute – your help is greatly appreciated! :)",
+            "Are you interested in improving this bot? Feel free to DM <@1177808839484133437> if you have any suggestions or would like to contribute – your help is greatly appreciated! :)",
           inline: false,
         }
       )

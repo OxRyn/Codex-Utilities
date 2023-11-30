@@ -23,8 +23,9 @@ const Image = {
   amnaFooter1: new AttachmentBuilder("./assets/images/amnaFooter1.png"),
   amnaFooter2: new AttachmentBuilder("./assets/images/amnaFooter2.png"),
   amnaFooter3: new AttachmentBuilder("./assets/images/amnaFooter3.png"),
+  amnaFooter4: new AttachmentBuilder("./assets/images/amnaFooter4.png"),
   amnaGameConntroler1: new AttachmentBuilder(
-    "./assets/images/amnaGameConntroler1.png",
+    "./assets/images/amnaGameConntroler1.png"
   ),
   amnaGithub1: new AttachmentBuilder("./assets/images/amnaGithub1.png"),
   amnaHome1: new AttachmentBuilder("./assets/images/amnaHome1.png"),
@@ -50,15 +51,15 @@ const Image = {
   amnaShuffle1: new AttachmentBuilder("./assets/images/amnaShuffle1.png"),
   amnaSkip1: new AttachmentBuilder("./assets/images/amnaSkip1.png"),
   amnaSlashCommand1: new AttachmentBuilder(
-    "./assets/images/amnaSlashCommand1.png",
+    "./assets/images/amnaSlashCommand1.png"
   ),
   amnaStaff1: new AttachmentBuilder("./assets/images/amnaStaff1.png"),
   amnaStop1: new AttachmentBuilder("./assets/images/amnaStop1.png"),
   amnaSubInlineText1: new AttachmentBuilder(
-    "./assets/images/amnaSubInlineText1.png",
+    "./assets/images/amnaSubInlineText1.png"
   ),
   amnaSubInlineText2: new AttachmentBuilder(
-    "./assets/images/amnaSubInlineText2.png",
+    "./assets/images/amnaSubInlineText2.png"
   ),
   amnaSuccess1: new AttachmentBuilder("./assets/images/amnaSuccess1.png"),
   amnaVolumeDown1: new AttachmentBuilder("./assets/images/amnaVolumeDown1.png"),
